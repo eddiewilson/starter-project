@@ -21,7 +21,21 @@
       </div>
     <![endif]-->
     
-    <div class="container">
+    <div class="grid container">
+	    
+	    
+	    
+	    <div class="grid-3_xs-1 grid-spaceBetween">
+		    <div class="col"><h1>Hello</h1></div>
+		    <div class="col"><h1>Hello</h1></div>
+		    <div class="col"><h1>Hello</h1></div>
+		    <div class="col"><h1>Hello</h1></div>
+		    <div class="col"><h1>Hello</h1></div>
+		    <div class="col"><h1>Hello</h1></div>
+		    <div class="col"><h1>Hello</h1></div>
+		    <div class="col"><h1>Hello</h1></div>
+		    <div class="col"><h1>Hello</h1></div>
+		</div>
 
 
 

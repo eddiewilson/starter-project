@@ -1,0 +1,64 @@
+// Variables
+
+// Pantone Colours
+
+// Modular Scale
+$ms-base:  1.25vw;
+$ms-ratio: 1.333;
+
+// Typography
+
+$font-1: "BryantWeb", sans-serif;
+$font-2: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Colours
+$hotpink: #ED1556;
+$white: #ffffff;
+$black: #000000;
+$lightgrey: #f1f2ef;
+$midgrey: #bbb2a9;
+
+// Media Sizes
+
+$iphone3: 320px;
+$iphone3L: 480px;
+$iphone4: 640px;
+$iphone4L: 960px;
+$iphone5: 640px;
+$iphone5L: 1136px;
+$iphone6: 750px;
+$iphone6L: 1334px;
+$tablet: 768px; 
+$iphone6plus: 1080px;
+$desktop: 1440px;
+$big-desk: 1700px;
+$super-desk: 2560px;
+
+$superdesk: 1600px 5000px;
+$tablet: 480px 780px;
+$mobile: 100px 480px;
+
+// Mixins
+@mixin smooth($dur){
+	transition: all $dur ease-in-out 0s;
+}
+
+// Extends
+
+@mixin button(){
+	appearance: none;
+	padding: 0.7rem 1.2rem;
+	color: $hotpink;
+	background-color: transparent;
+	text-transform: uppercase;
+	border-radius: 100vw;
+	border: 0.1rem solid $hotpink;
+	font-size: 1.1rem;
+	font-family: $font-1;
+	@include smooth(0.2s);
+	&:hover{
+		cursor: pointer;
+		background-color: $hotpink;
+		color: $white;
+	}
+}

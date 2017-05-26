@@ -1,0 +1,18 @@
+.footer{
+	position: relative;
+	width: 100vw;
+	background-color: $pop-color;
+	color: whitesmoke;
+	top: 100vh;
+	padding: ms(4);
+	.nav{
+		font-family: $font-sans;
+		ul{
+			@include cf();
+			li{
+				@include span(1);
+				margin-bottom: ms(-7);
+			}
+		}
+	}
+}

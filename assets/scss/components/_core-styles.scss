@@ -1,0 +1,16 @@
+html{
+
+}
+body{
+	color: $black;
+	background-color: whitesmoke !important;
+	&[data-state=hide]{
+		opacity: 1;
+	}
+	&[data-state=show]{
+		
+	}
+}
+.container{
+	
+}

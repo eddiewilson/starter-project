@@ -70,12 +70,16 @@ var svgConfig = {
         bust : true,
         sprite : "sprite.<mode>.svg",
         symbol : true
+    },
+    svg : {
+	    doctypeDeclaration : false,
+	    xmlDeclaration : false
     }
 };
 gulp.task('svg', function() {
-    gulp.src('assets/icons/**/*.svg')
+    gulp.src('assets/img/icons/*.svg')
     .pipe(svgSprite(svgConfig))
-    .pipe(gulp.dest('dist/icons'));
+    .pipe(gulp.dest('dist/img/icons'));
 });
 
 // ES6 & Concatenate & Minify JS

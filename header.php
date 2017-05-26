@@ -10,9 +10,17 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    
+    <script src="https://use.typekit.net/vjq4ksg.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
   </head>
   
-  <body class="" >
+  <body class="tk-futura-pt" >
+	  
+	  <div class="svgSpriteWrapper hidden">
+        <?php include_once('dist/img/icons/symbol/svg/sprite.symbol.svg'); ?>
+    </div>
+    
     <!--[if lt IE 9]>
       <div class="browsehappy">
         <p>
@@ -22,8 +30,11 @@
     <![endif]-->
     
     <div class="grid container">
-	   <header class="header">
-		   
+	   <header class="header grid-3_xs-1">
+		   <h1 class="col">ELECTRICAL</h1>
+		   <svg class="logo_box_yellow">
+                <use xlink:href="#logo_box_yellow" />
+           </svg>
 	   </header>
 
 

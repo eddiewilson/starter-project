@@ -1,0 +1,8 @@
+{
+  "name": "Project Starter",
+  "description": "Base fro most projects",
+  "version": "1.0.0",
+  "dependencies": {
+    "": ""
+  }
+}
